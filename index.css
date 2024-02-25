@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    height: 70px;
+    width: 60px;
+    padding: 10px;
+    background-size: cover;
+    background-image: url("media/logo.png");
+}
+.nav_bar{
+padding: 15px;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+}
+.nav_bar a{
+    color: rgb(88, 86, 86);
+    text-decoration:none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family:  ' Bold', sans-serif;
+   
+}
+a:hover{
+    /* color: #f4511e */
+    color: #7199f7;
+}
+.button{
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #7199f7;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+.card{
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h5{
+    color: #f4511e;
+}
+h1{
+    color: #393737;
+}
+.card_text p{
+    color: #514c4c;
+}
+.card_choose_property{
+    width: 700px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.958);
+    z-index: 10;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card_choose_property select{
+   width: 130px;
+   height: 30px;
+   border-radius: 10px;
+   padding: 10;
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: center;
+   font-size: 12px;
+   color: rgb(81, 87, 87);
+   appearance: none;
+}
+.card_text{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.card_img1{
+    height: 400px;
+    width: 700px;
+    background-size: cover;
+    background-image: url("media/card_img1.png");
+    z-index: -1;
+}
+
+.flat_show{
+    width: 100%;
+    height: 1000px;
+    margin-top: 250px;
+
+}
+select:hover{
+    box-shadow: 0 4px 8px 0 rgba(147, 131, 131, 0.2), 0 6px 20px 0 rgba(68, 64, 64, 0.19);
+
+}
+
+.main_house{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.main_house div{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(147, 131, 131, 0.2), 0 6px 20px 0 rgba(68, 64, 64, 0.19);
+
+   }
+.house1{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.house1 div{
+    background-image: url("media/house_room_1.jpg");
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+
+.house1 p,h4{
+    color: #645f5f;
+    margin-left: 30px;
+}
+.house2{
+    border-radius: 20px;
+}
+.house3{
+    border-radius: 20px;
+}
+.house_img{
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
+}
+:hover.house_img{
+    transform: scale(1.05);
+}
+h4{
+    color: #393737;
+}
+:hover.house1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+:hover.house2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+:hover.house3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
