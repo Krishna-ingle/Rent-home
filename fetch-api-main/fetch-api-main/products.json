@@ -1,0 +1,123 @@
+[
+	{
+		"id": 1,
+		"name": "1 BHK Apartment, 1 Baths",
+		"price": "$15,000/month",
+		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://media.designcafe.com/wp-content/uploads/2023/03/15104713/diy-room-decor-for-rented-house.jpg",
+				"color": "#272727"
+			},
+			{
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1650364812/Website/CMS-Uploads/vc5rv7fxpkdl4kdw3cwp.jpg",
+				"color": "#23284E"
+			},
+			{
+				"url": "https://media.designcafe.com/wp-content/uploads/2023/03/15104713/diy-room-decor-for-rented-house.jpg",
+				"color": "#272727"
+			}
+		]
+	},
+
+	{
+		"id": 2,
+		"name": "1 BHK Apartment, 1 Baths",
+		"price": "$15,000/month",
+		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://media.designcafe.com/wp-content/uploads/2023/03/15104708/diy-rental-house-decor-with-removable-wallpaper.jpg",
+				"color": "#4F8196"
+			}
+		]
+	},
+
+	{
+		"id": 3,
+		"name": "1 BHK Apartment, 1 Baths",
+		"price": "$15,000/month",
+		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "./assets/sweater-white.png",
+				"color": "#E8E8E8"
+			},
+			{
+				"url": "./assets/sweater-orange.png",
+				"color": "#FAB364"
+			},
+			{
+				"url": "./assets/sweater-pink.png",
+				"color": "#F2CFCD"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "1 BHK Apartment, 1 Baths",
+		"price": "$15,000/month",
+		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "./assets/jeans-blue.png",
+				"color": "#2C88B3"
+			},
+			{
+				"url": "./assets/jeans-black.png",
+				"color": "#505654"
+			}
+		]
+	},
+	
+	{	"id": 5,
+		"name": "1 BHK Apartment, 1 Baths",
+		"price": "$15,000/month",
+		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "./assets/jeans-blue.png",
+				"color": "#2C88B3"
+			},
+			{
+				"url": "./assets/jeans-black.png",
+				"color": "#505654"
+			}
+		]
+	},
+	{	"id": 6,
+		"name": "1 BHK Apartment, 1 Baths",
+		"price": "$15,000/month",
+		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "./assets/jeans-blue.png",
+				"color": "#2C88B3"
+			},
+			{
+				"url": "./assets/jeans-black.png",
+				"color": "#505654"
+			}
+		]
+	},
+
+	{
+		"id": 7,
+		"name": "1 BHK Apartment, 1 Baths",
+		"price": "$15,000/month",
+		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "./assets/jeans-blue.png",
+				"color": "#2C88B3"
+			},
+			{
+				"url": "./assets/jeans-black.png",
+				"color": "#505654"
+			}
+		]
+	}
+
+]
+
+

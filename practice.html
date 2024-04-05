@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
     
     <nav class="nav_bar">
         <div class="logo"></div>
-        <a href="www.google.com" class="nav_home">Home</a>
-        <a href="www.google.com" class="nav_service">Service</a>
-        <a href="www.google.com" class="nav_property">Property</a>
-        <a href="www.google.com" class="nav_contact">Contact</a>
+        <a href="#nav_bar" class="nav_home">Home</a>
+        <a href="#tool_service" id="service_2" class="nav_service">Service</a>
+        <a href="fetch-api-main/fetch-api-main/index.html" class="nav_property">Property</a>
+        <a href="#footer" class="nav_contact">Contact</a>
         <button class="button" id="btn1" style="vertical-align:middle"><span>Sing-in </span></button>
     </nav>
 
@@ -56,35 +57,213 @@
         <div class="card_img1"></div>
         </div>
     </div>
-    <div class="flat_show" style="position: absolute;text-align: center;">
+
+
+    <!-- flat_show -->
+    <div class="flat_show">
         <h1>Feature Properties</h1>
         <p>For many of us, buying a homes is a dream and one that's not easily attaniable.<br>
         promising to help them achieve their dreams.</p>
 
         <div class="main_house">
+
             <div class="house1"> 
-                <div class="house_img"></div>
+                <img src="media/house_1.jpg" alt="" width="300" height="180">
+                <div class="flat_info">
                 <h4>1 BHK Apartment, 1 Baths </h4>
                 <p>$15,000/month&#160;&#160; Deposit -$20,000</p>
                 <p>&#9906;&#160;in Sidhhivinayak complex , Shivane, Pune, Maharashtra </p>
                 <p>Posted by Owner&emsp;&emsp;&emsp;&emsp;&emsp;<i style="color: #3d3d42; font-size: 18px ; "><b>more...</b></i></p>
+                </div>
             </div>
 
-            <div class="house2">]
-           </div>
-            <div class="house3"></div>
-        </div>
-    </div>
+            <div class="house1"> 
+                <img src="media/house_1.jpg" alt="" width="300" height="180">
+                <div class="flat_info">
+                    <h4>1 BHK Apartment, 1 Baths </h4>
+                    <p>$15,000/month&#160;&#160; Deposit -$20,000</p>
+                    <p>&#9906;&#160;in Sidhhivinayak complex , Shivane, Pune, Maharashtra </p>
+                    <p>Posted by Owner&emsp;&emsp;&emsp;&emsp;&emsp;<i style="color: #3d3d42; font-size: 18px ; "><b>more...</b></i></p>
+                    </div>
+                </div>
 
-   <div class="login">
-    <div class="login_card">
-        <div>
+
+            <div class="house1"> 
+                <img src="media/house_1.jpg" alt="" width="300" height="180">
+                <div class="flat_info">
+                <h4>1 BHK Apartment, 1 Baths </h4>
+                <p>$15,000/month&#160;&#160; Deposit -$20,000</p>
+                <p>&#9906;&#160;in Sidhhivinayak complex , Shivane, Pune, Maharashtra </p>
+                <p>Posted by Owner&emsp;&emsp;&emsp;&emsp;&emsp;<i style="color: #3d3d42; font-size: 18px ; "><b>more...</b></i></p>
+                </div>
+             </div>
+
+             <div class="house1"> 
+                <img src="media/house_1.jpg" alt="" width="300" height="180">
+                <div class="flat_info">
+                <h4>1 BHK Apartment, 1 Baths </h4>
+                <p>$15,000/month&#160;&#160; Deposit -$20,000</p>
+                <p>&#9906;&#160;in Sidhhivinayak complex , Shivane, Pune, Maharashtra </p>
+                <p>Posted by Owner&emsp;&emsp;&emsp;&emsp;&emsp;<i style="color: #3d3d42; font-size: 18px ; "><b>more...</b></i></p>
+                </div>
+             </div>
+
+          </div>
+        
+     </div>
+
+    <!-- login page.... -->
+
+
+   <div class="login" id="card" >
+    <div class="login_card" >
+        <div >
             <input  type="text" id="username" name="username" placeholder="username" required>
             <input type="password" id="password" name="password" placeholder="password" required>
         </div>
         <button type="submit">Login</button>
     </div>
    </div>
+
+
+   <div class="select_type_property">
+       <div class="for_family">
+           <h1 class="for_family_text">For Family...</h1>
+           <img src="media\for_family.jpg" width="500" height="300">
+       </div>
+       <div class="Single">
+           <h1 class="for_family_text">For Single Man...</h1>
+           <img src="media\for_single_man1.jpg" width="500" height="300">
+       </div>
+   </div>
+
+
+
+   <!-- tool and service  -->
+
+ <div class="tool_section" id="tool_service">
+    <div class="tool_section_heading">
+      <img src="media\tool_logo.png" height="80"width="80">
+      <div>
+      <h1>Insight & Tools</h1> 
+      <p>Go from browsing to renting</p>
+      </div> 
+    </div>
+    
+    <div class="Service">
+        <a class="link_service" href="https://www.99acres.com/home-loan-emi-calculator-hlpg?preference=RENTAL&src_page=HP"><div class="emi_contenar">
+            <div class="img_logo_div"><img src="media/emi_logo.png"width="80" height="80"></div>
+            <h3 style="font-size: 16px;">EML CALCULATOR</h3>
+            <p style="font-size: 14px;">Calculate your home<br> loan EMI</p>
+        </div></a>
+
+        <a class="link_service" href="https://www.99acres.com/area-converter-utyp?preference=RENTAL&src_page=HP"><div class="emi_contenar">
+            <div class="img_logo_div"><img src="media/Area_calculator_logo.png"width="80" height="80"></div>
+            <h3 style="font-size: 16px;">EML CALCULATOR</h3>
+            <p style="font-size: 14px;">Calculate your home<br> loan EMI</p>
+        </div></a>
+
+        <a class="link_service" href="https://www.99acres.com/home-loan-eligibility-calculator-hlpg?preference=RENTAL&src_page=HP"><div class="emi_contenar">
+            <div class="img_logo_div"><img src="media/LoanEligibility_logo.png"width="80" height="80"></div>
+            <h3 style="font-size: 16px;">EML CALCULATOR</h3>
+            <p style="font-size: 14px;">Calculate your home<br> loan EMI</p>
+        </div></a>
+
+
+        <a class="link_service" href="https://www.99acres.com/home-loan-emi-calculator-hlpg?preference=RENTAL&src_page=HP"><div class="emi_contenar">
+            <div class="img_logo_div"><img src="media/emi_logo.png"width="80" height="80"></div>
+            <h3 style="font-size: 16px;">EML CALCULATOR</h3>
+            <p style="font-size: 14px;">Calculate your home<br> loan EMI</p>
+        </div></a>
+    </div>
+</div> 
+
+<!-- flat type -->
+<h1 class="flat_type_heading">Apartments, Villas and more</h1>
+<div class="flat_type">
+   
+    <div class="Residential">
+        <h1 class="text_bulding" style="font-size: 24px;">Residential <br>Apartment<br>
+            <p style="color: #3d3d42;font-size: 16px;"> 
+                23,000+ Properties</p></h1>
+        <img src="media/bulding.png" width="250" height="370">
+    </div>
+
+    <div class="Residential">
+        <h1 class="text_bulding" style="font-size: 24px;">Farm<br>House<br>
+            <p style="color: #3d3d42;font-size: 16px;"> 
+                30+ Properties</p></h1>
+        <img src="media/Farm_house.png" width="250" height="370">
+    </div>
+
+    <div class="Residential">
+        <h1 class="text_bulding" style="font-size: 24px;">Serviced <br>Apartment<br>
+            <p style="color: #3d3d42;font-size: 16px;"> 
+                9+ Properties</p></h1>
+        <img src="media/Serviced_apartment.png" width="250" height="370">
+    </div>
+
+    <div class="Residential">
+        <h1 class="text_bulding" style="font-size: 24px;">Independant <br>house<br>
+            <p style="color: #3d3d42;font-size: 16px;"> 
+                1,100+ Properties</p></h1>
+        <img src="media/Independant_house.png"width="250" height="370">
+    </div>
+
+    <div class="Residential">
+        <h1 class="text_bulding" style="font-size: 24px;">Residential <br>Land<br>
+            <p style="color: #3d3d42;font-size: 16px;"> 
+                1,800+ Properties</p></h1>
+        <img src="media/Residential_land.png" width="250" height="370">
+    </div>
+    
+</div>
+
+<!-- footer -->
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
