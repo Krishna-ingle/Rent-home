@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
@@ -115,17 +116,33 @@
     <!-- login page.... -->
 
 
+
    <div class="login" id="card" >
+    
+    <button class="btn_close" id="btnCloseCard"><i class="fa fa-close"></i></button>
     <div class="login_card" >
-        <div >
-            <input  type="text" id="username" name="username" placeholder="username" required>
-            <input type="password" id="password" name="password" placeholder="password" required>
-        </div>
-        <button type="submit">Login</button>
+       
+        <video   width="400" height="500" autoplay muted loop>
+            <source src="media/house-for-sale-5712584-4773531.mp4" type="video/mp4">
+            <source src="media/house-for-sale-5712584-4773531.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+
+          <div class="login_info_section">
+            <div >
+                <h4 style="color: #6c6c70; font-size: large; font-family: Cambria;">Struggling to find your perfect home</h4>
+                <input  type="text" id="username" name="Select State" placeholder="Select State" required>
+                <input  type="text" id="username" name="username" placeholder="username" required>
+                <input type="password" id="password" name="password" placeholder="password" required>
+            </div>
+            <button type="submit" id="btn_login">Login</button>
+          </div>
+         
     </div>
-   </div>
 
+</div>
 
+<!-- select prperty -->
    <div class="select_type_property">
        <div class="for_family">
            <h1 class="for_family_text">For Family...</h1>
@@ -136,6 +153,7 @@
            <img src="media\for_single_man1.jpg" width="500" height="300">
        </div>
    </div>
+
 
 
 
@@ -219,6 +237,25 @@
     
 </div>
 
+<!-- google map -->
+
+<div class="map_contener">
+    <div class="text_of_map">
+        
+        <h3>Search your feature home...<br><br></h3>
+        <input  type="text" id="username" name="Select State" placeholder="Select State" required>
+               
+        <p> More than 1000 house available for sell and sell<br> in each country in US</p>
+        <button class="btn_map"  style="vertical-align:middle"><span>Get start</span></button>
+    </div>
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29851.724407258593!2d77.33619666102786!3d20.731916373998143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6d1e35d207caf%3A0xcfa7fde8025b627a!2sMurtizapur%2C%20Maharashtra%20444107!5e0!3m2!1sen!2sin!4v1712410033367!5m2!1sen!2sin" 
+    width="600" height="450" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+   </iframe>
+   
+    </div>   
+</div>
+
 <!-- footer -->
 <footer class="footer" id="footer">
     <div class="container">
@@ -233,22 +270,22 @@
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>get help</h4>
+                <h4>About</h4>
                 <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">shipping</a></li>
-                    <li><a href="#">returns</a></li>
-                    <li><a href="#">order status</a></li>
+                    <li><a href="#">Staff</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
                     <li><a href="#">payment options</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>online shop</h4>
+                <h4>Resources</h4>
                 <ul>
-                    <li><a href="#">watch</a></li>
-                    <li><a href="#">bag</a></li>
-                    <li><a href="#">shoes</a></li>
-                    <li><a href="#">dress</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Global</a></li>
+                    <li><a href="#">Charts</a></li>
+                    <li><a href="#">privacy</a></li>
                 </ul>
             </div>
             <div class="footer-col">
