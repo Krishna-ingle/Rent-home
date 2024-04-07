@@ -9,15 +9,24 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="style.css" />
 		<!-- JavaScript -->
-		<script src="index.js" defer></script>
 		<title>Product-Card | Coding</title>
 	</head>
 	<body>
 		<section>
 			<header>
 				<h1 class="header__title">Most Popular Products</h1>
+				<p  style="color: transparent; display: none; " id="receivedHtmlData"></p>
 			</header>
 			<div class="most-popular-products"></div>
 		</section>
+		<script>
+			// Retrieve HTML data from local storage
+			var htmlData = localStorage.getItem('htmlData');
+			if (htmlData) {
+				document.getElementById('receivedHtmlData').innerHTML = htmlData;
+			}
+		</script>
+		
+		<script src="index.js" ></script>
 	</body>
 </html>
