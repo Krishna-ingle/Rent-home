@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
@@ -41,6 +42,7 @@
                 <option value="opel">2 BHK</option>
                 <option value="audi">3 BHK</option>
               </select>
+
               <select name="cars" class="PriceFind" id="cars">
                 <option value="Average Price">Average Price</option>
                 <option value="15000">15000</option>
@@ -48,6 +50,15 @@
                 <option value="25000">25000</option>
               </select>
               <button id="findHouse" onclick="sendData()" class="button" style="vertical-align:middle"><span>Find now</span></button>
+
+              <select name="cars" id="cars">
+                <option value="volvo">Average Price</option>
+                <option value="saab">15,000</option>
+                <option value="opel">20,000</option>
+                <option value="audi">25,000</option>
+              </select>
+              <button class="button" style="vertical-align:middle"><span>Find now</span></button>
+
         
             </div>
         
@@ -251,6 +262,10 @@
     <div class="map">
     <iframe title="Google map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29851.724407258593!2d77.33619666102786!3d20.731916373998143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6d1e35d207caf%3A0xcfa7fde8025b627a!2sMurtizapur%2C%20Maharashtra%20444107!5e0!3m2!1sen!2sin!4v1712410033367!5m2!1sen!2sin" 
     width="600" height="450" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29851.724407258593!2d77.33619666102786!3d20.731916373998143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6d1e35d207caf%3A0xcfa7fde8025b627a!2sMurtizapur%2C%20Maharashtra%20444107!5e0!3m2!1sen!2sin!4v1712410033367!5m2!1sen!2sin" 
+    width="600" height="450" style="border:0; border-radius: 10px; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
    </iframe>
    
     </div>   
@@ -301,7 +316,6 @@
     </div>
 </footer>
 
-
    <script type="text/javascript" src="script.js"></script>
 
    <script>
@@ -315,5 +329,7 @@
         }
     }
    </script>
+   <script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>
