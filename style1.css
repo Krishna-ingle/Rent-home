@@ -173,6 +173,62 @@ h1{
     border-radius: 10px;
 	transform: scale(1.1);
 }
+
+
+
+
+  .card-button {
+    margin-top: 10%;
+    height: 20px;
+    display: inline-block;
+    background-color: #c4c5c5;
+    color: #000000;
+    padding: 20px; /* Adjusted padding for larger button */
+    border-radius: 50%; /* Circular shape */
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid transparent; /* Adding border to maintain circular shape */
+  }
+  
+  /* Style for the arrow icon */
+  .arrow-icon {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    color: #ffffff;
+    transition: color 0.3s;
+    font-size: 24px; /* Increased font size for the arrow icon */
+  }
+
+  /* Hover effect */
+  .card-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 94, 94, 0.1);
+    transition: left 0.3s ease;
+    z-index: 1;
+  }
+  
+  .card-button:hover::after {
+    left: 0;
+  }
+
+  .card-button:hover {
+    color: #747171;
+    background-color: #dedbdb;
+    border-color: #ffffff; /* Change border color on hover */
+  }
+
+  .card-button:hover .arrow-icon {
+    color: #ffffff;
+  }
 /* 
 select:hover{
     box-shadow: 0 4px 8px 0 rgba(147, 131, 131, 0.2), 0 6px 20px 0 rgba(68, 64, 64, 0.19);
@@ -240,7 +296,7 @@ select:hover{
   font-size: 14px;
   text-align: left;
   outline: 0;
-  width: 90%;
+  width: 70%;
   padding: 5px;
   margin-top: 5%;
   box-sizing: border-box;

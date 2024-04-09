@@ -14,7 +14,7 @@
 				"color": "#23284E"
 			},
 			{
-				"url": "https://media.designcafe.com/wp-content/uploads/2023/03/15104713/diy-room-decor-for-rented-house.jpg",
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1668663214/Website/CMS-Uploads/_MG_0520_1_2_yvr3fd.jpg",
 				"color": "#272727"
 			}
 		]
@@ -40,11 +40,11 @@
 		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
 		"images": [
 			{
-				"url": "https://media.designcafe.com/wp-content/uploads/2023/03/15104713/diy-room-decor-for-rented-house.jpg",
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1673351754/Website/CMS-Uploads/_MG_0091_2_3_eypnkd.jpg",
 				"color": "#272727"
 			},
 			{
-				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1650364812/Website/CMS-Uploads/vc5rv7fxpkdl4kdw3cwp.jpg",
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_355/f_auto,q_auto/v1634906171/Website/CMS-Uploads/l3jjqgl00xanatrxalfj.jpg",
 				"color": "#23284E"
 			},
 			{
@@ -60,8 +60,8 @@
 		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
 		"images": [
 			{
-				"url": "https://media.designcafe.com/wp-content/uploads/2023/03/15104713/diy-room-decor-for-rented-house.jpg",
-				"color": "#272727"
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1648113999/Website/CMS-Uploads/tfokiwlirm4s9gykekjc.jpg",
+				"color": "#23284E"
 			},
 			{
 				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1650364812/Website/CMS-Uploads/vc5rv7fxpkdl4kdw3cwp.jpg",
@@ -81,7 +81,7 @@
 		"Address" :"⚲ in Sidhhivinayak complex , Shivane, Pune, Maharashtra",
 		"images": [
 			{
-				"url": "https://media.designcafe.com/wp-content/uploads/2023/03/15104713/diy-room-decor-for-rented-house.jpg",
+				"url": "https://is1-2.housingcdn.com/01c16c28/29995fe79f1e11966bfc5e21a15dd894/v0/fs/2_bhk_apartment-for-rent-hsr_layout_bangalore-Bangalore-hall.jpg",
 				"color": "#272727"
 			},
 			{
@@ -102,11 +102,11 @@
 			"Address" :"⚲ in Green Valley Society, Hinjawadi, Pune, Maharashtra",
 			"images": [
 				{
-					"url": "https://example.com/image1.jpg",
+					"url": "https://is1-3.housingcdn.com/01c16c28/7a8e622a72b36f1f41d4d0e746672cc8/v0/fs/2_bhk_independent_house-for-rent-hsr_layout_bangalore-Bangalore-hall.jpg",
 					"color": "#123456"
 				},
 				{
-					"url": "https://example.com/image2.jpg",
+					"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1647507296/Website/CMS-Uploads/wswov4skmgh4e0red05j.jpg",
 					"color": "#654321"
 				}
 			]
@@ -119,7 +119,7 @@
 			"Address" :"⚲ in Blue Ridge Society, Hinjawadi, Pune, Maharashtra",
 			"images": [
 				{
-					"url": "https://example.com/image3.jpg",
+					"url": "https://i2.au.reastatic.net/800x600/6e4b2751f4558776023e8ad52acb3bd869aeea61221c9265265943f9341f76a4/image.jpg",
 					"color": "#ABCDEF"
 				}
 			]
@@ -132,18 +132,212 @@
 			"Address" :"⚲ in Amanora Park Town, Hadapsar, Pune, Maharashtra",
 			"images": [
 				{
-					"url": "https://example.com/image4.jpg",
+					"url": "https://images.allhomes.com.au/property/photo/6db17f6e219a2e786601de78ac77e941_l.jpg",
 					"color": "#FF0000"
 				},
 				{
-					"url": "https://example.com/image5.jpg",
+					"url": "https://images.unsplash.com/photo-1561145286-4ff809f71ee3",
 					"color": "#00FF00"
 				}
 			]
+		},
+	
+	
+		{   
+			"id": 9,
+			"name": "2 BHK Apartment, 2 Baths",
+			"price": 20000,
+			"Address": "⚲ in Blue Ridge, Hinjewadi, Pune, Maharashtra",
+			"images": [
+				{
+					"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1648117693/Website/CMS-Uploads/ekj8wj5emms9atjhknnz.jpg",
+					"color": "#8C7855"
+				},
+				{
+					"url": "https://images.allhomes.com.au/property/photo/6db17f6e219a2e786601de78ac77e941_l.jpg",
+					"color": "#FF0000"
+				},
+				{
+					"url": "https://images.unsplash.com/photo-1561145286-4ff809f71ee3",
+					"color": "#548B54"
+				}
+			]
+		},
+	
+		{   
+			"id": 10,
+			"name": "Studio Apartment",
+			"price": 30000,
+			"Address": "⚲ in Koregaon Park, Pune, Maharashtra",
+			"images": [
+				{
+					"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1673351754/Website/CMS-Uploads/_MG_0103_4_5_qgahcn.jpg",
+					"color": "#272727"
+				},
+				{
+					"url": "https://media.designcafe.com/wp-content/uploads/2023/03/15104713/diy-room-decor-for-rented-house.jpg",
+					"color": "#272727"
+				},
+				{
+					"url": "https://www.nytimes.com/images/2021/05/13/t-magazine/design/shelby/04tmag-shelby-slide-0AHS/04tmag-shelby-slide-0AHS-jumbo-v3.jpg",
+					"color": "#6F4E37"
+				}
+			]
+		}, 
+	
+		{
+			"id": 11,
+			"name": "1 BHK Apartment",
+			"price": 20000,
+			"Address": "⚲ in Baner, Pune, Maharashtra",
+			"images": [
+			{
+				"url": "https://nestaway-houses-assets.nestaway.com/uploads/images/thumb_large_dda9ec81-c274-4461-a633-af9ff572cda8.jpg",
+				"color": "#272727"
+			},
+			{
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1673351754/Website/CMS-Uploads/_MG_0103_4_5_qgahcn.jpg",
+				"color": "#6F4E37"
+			}
+		]
+		},
+	
+		{
+		"id": 12,
+		"name": "1 BHK Studio Apartment",
+		"price": 25000,
+		"Address": "⚲ in Wakad, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://imgs.nestimg.com/2_bhk_independent_builder_floor_in_marie_oulgaret_for_rent_puducherry_the_reference_number_is_14115607_3350009711362052169.jpg",
+				"color": "#272727"
+			}
+		]
+		},
+	
+		{
+		"id": 13,
+		"name": "2 BHK Apartment",
+		"price": 30000,
+		"Address": "⚲ in Kalyani Nagar, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1662983662/Website/CMS-Uploads/rzei5tu2fioe72af36re.jpg",
+				"color": "#6F4E37"
+			}
+		]
+		},
+	
+		{
+		"id": 14,
+		"name": "2 BHK Villa",
+		"price": 21000,
+		"Address": "⚲ in Hadapsar, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1662026018/Website/CMS-Uploads/phieqzffyldifowdryjc.jpg",
+				"color": "#6F4E37"
+			}
+		]
+		},
+	   
+		{
+		"id": 15,
+		"name": "3 BHK Apartment",
+		"price": 30000,
+		"Address": "⚲ in Viman Nagar, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1632830287/Website/CMS-Uploads/dvdd1gi31swju93im21h.jpg",
+				"color": "#272727"
+			},
+			{
+				"url": "https://www.nytimes.com/images/2021/05/13/t-magazine/design/shelby/04tmag-shelby-slide-0AHS/04tmag-shelby-slide-0AHS-jumbo-v3.jpg",
+				"color": "#6F4E37"
+			}
+		]
+		},
+	
+		{
+		"id": 16,
+		"name": "3 BHK Penthouse",
+		"price": 50000,
+		"Address": "⚲ in Aundh, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://is1-2.housingcdn.com/01c16c28/198cb6727bb36e61c62567e3273fcd37/v0/fs/2_bhk_apartment-for-rent-sahara_city_homes-Indore-hall.jpg",
+				"color": "#272727"
+			},
+			{
+				"url": "https://www.nytimes.com/images/2021/05/13/t-magazine/design/shelby/04tmag-shelby-slide-0AHS/04tmag-shelby-slide-0AHS-jumbo-v3.jpg",
+				"color": "#6F4E37"
+			}
+		]
+		},
+	
+		{
+		"id": 17,
+		"name": "3 BHK Villa with Garden",
+		"price": 40000,
+		"Address": "⚲ in Magarpatta City, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI6qnsFjC2sDhhje9WiETGgBUkwa6s2TVGGnipOjLlTw&s",
+				"color": "#6F4E37"
+			}
+		]
+		},
+	
+		{
+		"id": 18,
+		"name": "4 BHK Apartment",
+		"price": 40000,
+		"Address": "⚲ in Kharadi, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://is1-3.housingcdn.com/01c16c28/5cf859b87f43706e7281118f167ad87e/v0/medium/2_bhk_apartment-for-rent-bhai_randhir_singh_nagar-Ludhiana-bedroom.jpg",
+				"color": "#272727"
+			},
+			{
+				"url": "https://www.nytimes.com/images/2021/05/13/t-magazine/design/shelby/04tmag-shelby-slide-0AHS/04tmag-shelby-slide-0AHS-jumbo-v3.jpg",
+				"color": "#6F4E37"
+			}
+		]
+		},
+	
+		{ 
+		"id": 19,
+		"name": "4 BHK Villa with Pool",
+		"price":70000,
+		"Address": "⚲ in Pimpri-Chinchwad, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://media.designcafe.com/wp-content/uploads/2023/03/15104713/diy-room-decor-for-rented-house.jpg",
+				"color": "#272727"
+			},
+			{
+				"url": "https://www.nytimes.com/images/2021/05/13/t-magazine/design/shelby/04tmag-shelby-slide-0AHS/04tmag-shelby-slide-0AHS-jumbo-v3.jpg",
+				"color": "#6F4E37"
+			}
+		]
+		},
+	
+		 {
+		"id": 20,
+		"name": "5 BHK Luxurious Apartment",
+		"price": 600000,
+		"Address": "⚲ in Koregaon Park, Pune, Maharashtra",
+		"images": [
+			{
+				"url": "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1668663214/Website/CMS-Uploads/_MG_0520_1_2_yvr3fd.jpg",
+				"color": "#272727"
+			},
+			{
+				"url": "https://www.nytimes.com/images/2021/05/13/t-magazine/design/shelby/04tmag-shelby-slide-0AHS/04tmag-shelby-slide-0AHS-jumbo-v3.jpg",
+				"color": "#6F4E37"
+			}
+		]
 		}
-	
-	
-
-]
+	]
 
 
