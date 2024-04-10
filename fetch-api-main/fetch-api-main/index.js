@@ -1,7 +1,7 @@
-console.log("Comming form index.js");
 
 // getting data from main file to show houses 
 const listId = Number(document.querySelector("#receivedHtmlData").innerText);
+console.log(listId);
 
 const mostPopPorducts = document.querySelector(".most-popular-products");
 
@@ -18,7 +18,8 @@ fetch(jsonFile)
 .then((data) => {
 	data.map((product) => {
 		const { id, name, price, images ,Address} = product;
-		if(price <= userInput){
+		if(price <= userInput || userInput===0){
+			console.log("commmitn here");
 			mostPopPorducts.innerHTML += `
 	<div class="product-card" data-product-id="${id}">
 				<div class="product-card__container">
@@ -47,7 +48,8 @@ fetch(jsonFile)
 				</div>
 			</div>
 	`;
-		} else{
+		} 
+		else{
 			mostPopPorducts.innerHTML += ``;
 		}
 		
