@@ -18,7 +18,7 @@ fetch(jsonFile)
 .then((data) => {
 	data.map((product) => {
 		const { id, name, price, images ,Address} = product;
-		if(price <= userInput || userInput==0){
+		if(price <= userInput){
 			mostPopPorducts.innerHTML += `
 	<div class="product-card" data-product-id="${id}">
 				<div class="product-card__container">
